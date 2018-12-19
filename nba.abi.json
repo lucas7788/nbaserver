@@ -1,0 +1,130 @@
+{
+  "functions": [{
+    "name": "Main",
+    "parameters": [{
+      "name": "operation",
+      "type": ""
+    }, {
+      "name": "args",
+      "type": ""
+    }],
+    "returntype": ""
+  }, {
+    "name": "getGameCount",
+    "parameters": [{
+      "name": "date",
+      "type": ""
+    }],
+    "returntype": ""
+  }, {
+    "name": "getOracleReq",
+    "parameters": [{
+      "name": "date",
+      "type": ""
+    }],
+    "returntype": ""
+  }, {
+    "name": "testOracleRes",
+    "parameters": [{
+      "name": "date",
+      "type": ""
+    }],
+    "returntype": ""
+  }, {
+    "name": "name",
+    "parameters": [{
+      "name": "",
+      "type": ""
+    }],
+    "returntype": ""
+  }, {
+    "name": "getMatchByDate",
+    "parameters": [{
+      "name": "date",
+      "type": ""
+    }],
+    "returntype": ""
+  }, {
+    "name": "placeBet",
+    "parameters": [{
+      "name": "address",
+      "type": "ByteArray"
+    }, {
+      "name": "gameID",
+      "type": "String"
+    }, {
+      "name": "HorV",
+      "type": "String"
+    }, {
+      "name": "amount",
+      "type": "Integer"
+    }],
+    "returntype": ""
+  }, {
+    "name": "endBet",
+    "parameters": [{
+      "name": "date",
+      "type": "String"
+    }],
+    "returntype": ""
+  }, {
+    "name": "inputMatch",
+    "parameters": [{
+      "name": "date",
+      "type": "String"
+    }, {
+      "name": "gameID",
+      "type": "String"
+    }, {
+      "name": "hTeamID",
+      "type": "String"
+    }, {
+      "name": "vTeamID",
+      "type": "String"
+    }],
+    "returntype": ""
+  }, {
+    "name": "callOracle",
+    "parameters": [{
+      "name": "date",
+      "type": "String"
+    }],
+    "returntype": ""
+  }, {
+    "name": "setResult",
+    "parameters": [{
+      "name": "date",
+      "type": "String"
+    }],
+    "returntype": ""
+  }, {
+    "name": "manualSetResult",
+    "parameters": [{
+      "name": "date",
+      "type": ""
+    }, {
+      "name": "index",
+      "type": ""
+    }, {
+      "name": "gameid",
+      "type": ""
+    }, {
+      "name": "hscore",
+      "type": ""
+    }, {
+      "name": "vscore",
+      "type": ""
+    }],
+    "returntype": ""
+  }, {
+    "name": "withdraw",
+    "parameters": [{
+      "name": "address",
+      "type": ""
+    }, {
+      "name": "amount",
+      "type": ""
+    }],
+    "returntype": ""
+  }]
+}
