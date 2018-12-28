@@ -12,6 +12,11 @@
 
 根据用户地址和页查询 用户的赌注信息
 
+`time`  交易时间
+`txHash`  交易hash
+`gameID` 游戏ID
+`HorV`  主队还是客队
+`amount` 赌注数量
 
 请求例子
 
@@ -33,8 +38,7 @@ http://127.0.0.1:8585/api/v1/bets/getmyplacebetbypage/sss/3/1
 			"address": "sss",
 			"gameID": 1,
 			"HorV": "h",
-			"amount": 2.0100,
-			"horV": "h"
+			"amount": 2.0100
 		}]
 	}
 }
